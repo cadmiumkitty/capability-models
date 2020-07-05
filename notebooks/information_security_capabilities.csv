@@ -1,0 +1,11 @@
+@id,rdf:type,togaf:businessCapabilityDecomposesBusinessCapability,rdfs:label,rdfs:comment,dcterms:source
+is:1,togaf:BusinessCapability,,Information security,,https://www.apra.gov.au/sites/default/files/cpg_234_information_security_june_2019_0.pdf
+is:2,togaf:BusinessCapability,is:1,Vulnerability and threat management,,https://www.apra.gov.au/sites/default/files/cpg_234_information_security_june_2019_0.pdf
+is:3,togaf:BusinessCapability,is:1,Situational awareness and intelligence,,https://www.apra.gov.au/sites/default/files/cpg_234_information_security_june_2019_0.pdf
+is:4,togaf:BusinessCapability,is:1,Information security operations and administration,,https://www.apra.gov.au/sites/default/files/cpg_234_information_security_june_2019_0.pdf
+is:5,togaf:BusinessCapability,is:1,"Secure design, architecture and consultation",,https://www.apra.gov.au/sites/default/files/cpg_234_information_security_june_2019_0.pdf
+is:6,togaf:BusinessCapability,is:1,"Security testing, including penetration testing",,https://www.apra.gov.au/sites/default/files/cpg_234_information_security_june_2019_0.pdf
+is:7,togaf:BusinessCapability,is:1,Information security reporting and analytics,,https://www.apra.gov.au/sites/default/files/cpg_234_information_security_june_2019_0.pdf
+is:8,togaf:BusinessCapability,is:1,"Incident detection and response, including recovery, notification and communication",,https://www.apra.gov.au/sites/default/files/cpg_234_information_security_june_2019_0.pdf
+is:9,togaf:BusinessCapability,is:1,"Information security investigation, including preservation of evidence and forensic analysis",,https://www.apra.gov.au/sites/default/files/cpg_234_information_security_june_2019_0.pdf
+is:10,togaf:BusinessCapability,is:1,Information security assurance,,https://www.apra.gov.au/sites/default/files/cpg_234_information_security_june_2019_0.pdf

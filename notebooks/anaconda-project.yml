@@ -1,0 +1,48 @@
+name: capability-models
+icon: null
+description: >-
+  Simple project for capability model formalization.
+commands:
+  generate-config:
+    unix: envs/notebook/bin/jupyter notebook --generate-config
+    description: Generates notebook configuration, so that it can be tweaked
+    env_spec: notebook
+  register-kernel:
+    unix: envs/notebook/bin/python -m ipykernel install --user --name conda-env-notebook
+    description: Registers the environment as kernel so that we have access to libraries
+    env_spec: notebook
+  models:
+    notebook: investment_management_capabilities.ipynb
+    description: Runs Jupyter Notebook
+    env_spec: notebook
+variables: {}
+services: {}
+downloads: {}
+packages:
+  - anaconda
+  - python=3.6
+  - rdflib=4.2.2
+  - rdflib-jsonld=0.4.0
+  - pandas
+  - plotly  
+channels:
+  - conda-forge
+platforms:
+  - linux-64
+  - osx-64
+  - win-64
+env_specs:
+  default:
+    description: Default environment
+    packages: []
+    channels: []
+    platforms: []
+  notebook:
+    description: Jupyter notebooks environment
+    packages:
+      - ipykernel
+      - jupyter
+    channels:
+      - bioconda
+      - viascience
+    platforms: []

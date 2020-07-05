@@ -1,0 +1,266 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix im: <https://cadmiumkitty.github.io/im/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix togaf: <http://www.semanticweb.org/ontologies/2020/4/OntologyTOGAFContentMetamodel.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cadmiumkitty.github.io/im/10> a togaf:BusinessCapability ;
+    rdfs:label "Responsibilities documentation" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/7> .
+
+<https://cadmiumkitty.github.io/im/11> a togaf:BusinessCapability ;
+    rdfs:label "Review frequency documentation" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/7> .
+
+<https://cadmiumkitty.github.io/im/12> a togaf:BusinessCapability ;
+    rdfs:label "Rebalancing policy documentation" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/7> .
+
+<https://cadmiumkitty.github.io/im/13> a togaf:BusinessCapability ;
+    rdfs:label "Principles documentation" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/7> .
+
+<https://cadmiumkitty.github.io/im/15> a togaf:BusinessCapability ;
+    rdfs:label "Objectives monitoring" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/14> .
+
+<https://cadmiumkitty.github.io/im/16> a togaf:BusinessCapability ;
+    rdfs:label "Economic balance sheet monitoring" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/14> .
+
+<https://cadmiumkitty.github.io/im/17> a togaf:BusinessCapability ;
+    rdfs:label "Constraint monitoring" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/14> .
+
+<https://cadmiumkitty.github.io/im/18> a togaf:BusinessCapability ;
+    rdfs:label "Preferences monitoring" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/14> .
+
+<https://cadmiumkitty.github.io/im/20> a togaf:BusinessCapability ;
+    rdfs:label "Financial market research" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/19> .
+
+<https://cadmiumkitty.github.io/im/21> a togaf:BusinessCapability ;
+    rdfs:label "Economic research" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/19> .
+
+<https://cadmiumkitty.github.io/im/22> a togaf:BusinessCapability ;
+    rdfs:label "Social research" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/19> .
+
+<https://cadmiumkitty.github.io/im/23> a togaf:BusinessCapability ;
+    rdfs:label "Political research" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/19> .
+
+<https://cadmiumkitty.github.io/im/24> a togaf:BusinessCapability ;
+    rdfs:label "Sector research" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/19> .
+
+<https://cadmiumkitty.github.io/im/25> a togaf:BusinessCapability ;
+    rdfs:label "Company research" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/19> .
+
+<https://cadmiumkitty.github.io/im/26> a togaf:BusinessCapability ;
+    rdfs:label "Asset class identification" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/19> .
+
+<https://cadmiumkitty.github.io/im/27> a togaf:BusinessCapability ;
+    rdfs:label "Factor identification" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/19> .
+
+<https://cadmiumkitty.github.io/im/29> a togaf:BusinessCapability ;
+    rdfs:label "Public equity prices" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/28> .
+
+<https://cadmiumkitty.github.io/im/3> a togaf:BusinessCapability ;
+    rdfs:label "Objectives identification" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/2> .
+
+<https://cadmiumkitty.github.io/im/30> a togaf:BusinessCapability ;
+    rdfs:label "Private equity prices and valuations" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/28> .
+
+<https://cadmiumkitty.github.io/im/31> a togaf:BusinessCapability ;
+    rdfs:label "Fixed income prices" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/28> .
+
+<https://cadmiumkitty.github.io/im/32> a togaf:BusinessCapability ;
+    rdfs:label "Real assets prices and valuations" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/28> .
+
+<https://cadmiumkitty.github.io/im/33> a togaf:BusinessCapability ;
+    rdfs:label "Foreign exchange prices" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/28> .
+
+<https://cadmiumkitty.github.io/im/35> a togaf:BusinessCapability ;
+    rdfs:label "Asset-only strategic allocation" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/34> .
+
+<https://cadmiumkitty.github.io/im/36> a togaf:BusinessCapability ;
+    rdfs:label "Liability-relative strategic allocation" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/34> .
+
+<https://cadmiumkitty.github.io/im/37> a togaf:BusinessCapability ;
+    rdfs:label "Goal-based strategic allocation" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/34> .
+
+<https://cadmiumkitty.github.io/im/38> a togaf:BusinessCapability ;
+    rdfs:label "Mean Variance Optimization" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/34> .
+
+<https://cadmiumkitty.github.io/im/39> a togaf:BusinessCapability ;
+    rdfs:label "Monte Carlo Simulation" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/34> .
+
+<https://cadmiumkitty.github.io/im/4> a togaf:BusinessCapability ;
+    rdfs:label "Economic balance sheet creation" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/2> .
+
+<https://cadmiumkitty.github.io/im/40> a togaf:BusinessCapability ;
+    rdfs:label "Active implementation choices management" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/34> ;
+    rdfs:comment "Omits capabilities such as tactical allocation and tax optimization rule management" .
+
+<https://cadmiumkitty.github.io/im/41> a togaf:BusinessCapability ;
+    rdfs:label "Passive implementation choices management" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/34> .
+
+<https://cadmiumkitty.github.io/im/42> a togaf:BusinessCapability ;
+    rdfs:label "Manager selection" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/34> .
+
+<https://cadmiumkitty.github.io/im/43> a togaf:BusinessCapability ;
+    rdfs:label "Individual security selection" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/34> ;
+    rdfs:comment "Omits capability such as management of the model portfolios" .
+
+<https://cadmiumkitty.github.io/im/44> a togaf:BusinessCapability ;
+    rdfs:label "Execution of portfolio decisions" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/34> ;
+    rdfs:comment "Omits capabilities such as order and position management" .
+
+<https://cadmiumkitty.github.io/im/46> a togaf:BusinessCapability ;
+    rdfs:label "Evaluate progress towards achieving objectives and compliance with IPS" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/45> ;
+    rdfs:comment "Omits capabilities such as execution cost monitoring and reporting" .
+
+<https://cadmiumkitty.github.io/im/47> a togaf:BusinessCapability ;
+    rdfs:label "Manager-level performance and risk evaluation and reporting" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/45> .
+
+<https://cadmiumkitty.github.io/im/48> a togaf:BusinessCapability ;
+    rdfs:label "Asset class-level performance and risk evaluation and reporting" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/45> .
+
+<https://cadmiumkitty.github.io/im/49> a togaf:BusinessCapability ;
+    rdfs:label "Fund-level performance and risk evaluation and reporting" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/45> .
+
+<https://cadmiumkitty.github.io/im/5> a togaf:BusinessCapability ;
+    rdfs:label "Constraint identification" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/2> .
+
+<https://cadmiumkitty.github.io/im/50> a togaf:BusinessCapability ;
+    rdfs:label "Investment governance" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/1> .
+
+<https://cadmiumkitty.github.io/im/6> a togaf:BusinessCapability ;
+    rdfs:label "Preferences identification" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/2> .
+
+<https://cadmiumkitty.github.io/im/8> a togaf:BusinessCapability ;
+    rdfs:label "Objectives documentation" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/7> .
+
+<https://cadmiumkitty.github.io/im/9> a togaf:BusinessCapability ;
+    rdfs:label "Constraint documentation" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/7> .
+
+<https://cadmiumkitty.github.io/im/14> a togaf:BusinessCapability ;
+    rdfs:label "Objectives and constraints monitoring" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/1> .
+
+<https://cadmiumkitty.github.io/im/2> a togaf:BusinessCapability ;
+    rdfs:label "Objectives and constraints identification" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/1> .
+
+<https://cadmiumkitty.github.io/im/45> a togaf:BusinessCapability ;
+    rdfs:label "Rebalancing" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/1> ;
+    rdfs:comment "Omits capabilities such as rebalancing rules management" .
+
+<https://cadmiumkitty.github.io/im/28> a togaf:BusinessCapability ;
+    rdfs:label "Prices and markets monitoring" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/1> ;
+    rdfs:comment "Omits capabilities such as monitoring of the corporate actions" .
+
+<https://cadmiumkitty.github.io/im/7> a togaf:BusinessCapability ;
+    rdfs:label "Investment Policy Statement documentation" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/1> .
+
+<https://cadmiumkitty.github.io/im/1> a togaf:BusinessCapability ;
+    rdfs:label "Investment management" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> .
+
+<https://cadmiumkitty.github.io/im/19> a togaf:BusinessCapability ;
+    rdfs:label "Capital markets expectations development" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/1> .
+
+<https://cadmiumkitty.github.io/im/34> a togaf:BusinessCapability ;
+    rdfs:label "Portfolio structuring" ;
+    dcterms:source <https://www.cfainstitute.org/en/programs/cfa/exam/level-iii> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/im/1> ;
+    rdfs:comment "Omits capabilities such as asset owner account management" .
+

@@ -1,0 +1,51 @@
+@id,rdf:type,togaf:businessCapabilityDecomposesBusinessCapability,rdfs:label,rdfs:comment,dcterms:source
+im:1,togaf:BusinessCapability,,Investment management,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:2,togaf:BusinessCapability,im:1,Objectives and constraints identification,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:3,togaf:BusinessCapability,im:2,Objectives identification,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:4,togaf:BusinessCapability,im:2,Economic balance sheet creation,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:5,togaf:BusinessCapability,im:2,Constraint identification,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:6,togaf:BusinessCapability,im:2,Preferences identification,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:7,togaf:BusinessCapability,im:1,Investment Policy Statement documentation,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:8,togaf:BusinessCapability,im:7,Objectives documentation,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:9,togaf:BusinessCapability,im:7,Constraint documentation,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:10,togaf:BusinessCapability,im:7,Responsibilities documentation,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:11,togaf:BusinessCapability,im:7,Review frequency documentation,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:12,togaf:BusinessCapability,im:7,Rebalancing policy documentation,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:13,togaf:BusinessCapability,im:7,Principles documentation,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:14,togaf:BusinessCapability,im:1,Objectives and constraints monitoring,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:15,togaf:BusinessCapability,im:14,Objectives monitoring,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:16,togaf:BusinessCapability,im:14,Economic balance sheet monitoring,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:17,togaf:BusinessCapability,im:14,Constraint monitoring,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:18,togaf:BusinessCapability,im:14,Preferences monitoring,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:19,togaf:BusinessCapability,im:1,Capital markets expectations development,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:20,togaf:BusinessCapability,im:19,Financial market research,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:21,togaf:BusinessCapability,im:19,Economic research,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:22,togaf:BusinessCapability,im:19,Social research,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:23,togaf:BusinessCapability,im:19,Political research,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:24,togaf:BusinessCapability,im:19,Sector research,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:25,togaf:BusinessCapability,im:19,Company research,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:26,togaf:BusinessCapability,im:19,Asset class identification,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:27,togaf:BusinessCapability,im:19,Factor identification,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:28,togaf:BusinessCapability,im:1,Prices and markets monitoring,Omits capabilities such as monitoring of the corporate actions,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:29,togaf:BusinessCapability,im:28,Public equity prices,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:30,togaf:BusinessCapability,im:28,Private equity prices and valuations,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:31,togaf:BusinessCapability,im:28,Fixed income prices,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:32,togaf:BusinessCapability,im:28,Real assets prices and valuations,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:33,togaf:BusinessCapability,im:28,Foreign exchange prices,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:34,togaf:BusinessCapability,im:1,Portfolio structuring,Omits capabilities such as asset owner account management,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:35,togaf:BusinessCapability,im:34,Asset-only strategic allocation,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:36,togaf:BusinessCapability,im:34,Liability-relative strategic allocation,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:37,togaf:BusinessCapability,im:34,Goal-based strategic allocation,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:38,togaf:BusinessCapability,im:34,Mean Variance Optimization,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:39,togaf:BusinessCapability,im:34,Monte Carlo Simulation,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:40,togaf:BusinessCapability,im:34,Active implementation choices management,Omits capabilities such as tactical allocation and tax optimization rule management,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:41,togaf:BusinessCapability,im:34,Passive implementation choices management,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:42,togaf:BusinessCapability,im:34,Manager selection,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:43,togaf:BusinessCapability,im:34,Individual security selection,Omits capability such as management of the model portfolios,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:44,togaf:BusinessCapability,im:34,Execution of portfolio decisions,Omits capabilities such as order and position management,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:45,togaf:BusinessCapability,im:1,Rebalancing,Omits capabilities such as rebalancing rules management,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:46,togaf:BusinessCapability,im:45,Evaluate progress towards achieving objectives and compliance with IPS,Omits capabilities such as execution cost monitoring and reporting,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:47,togaf:BusinessCapability,im:45,Manager-level performance and risk evaluation and reporting,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:48,togaf:BusinessCapability,im:45,Asset class-level performance and risk evaluation and reporting,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:49,togaf:BusinessCapability,im:45,Fund-level performance and risk evaluation and reporting,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii
+im:50,togaf:BusinessCapability,im:1,Investment governance,,https://www.cfainstitute.org/en/programs/cfa/exam/level-iii

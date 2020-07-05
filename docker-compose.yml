@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  notebook:
+    build: notebooks
+    image: notebooks
+    ports:
+      - "8888:8888"
+    volumes: 
+      - .:/models
+

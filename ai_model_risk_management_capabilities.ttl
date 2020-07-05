@@ -1,0 +1,89 @@
+@prefix aimrm: <https://cadmiumkitty.github.io/aimrm/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix togaf: <http://www.semanticweb.org/ontologies/2020/4/OntologyTOGAFContentMetamodel.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cadmiumkitty.github.io/aimrm/10> a togaf:BusinessCapability ;
+    rdfs:label "Model lifecycle management" ;
+    dcterms:source <https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/request-for-comments> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/aimrm/1> ;
+    rdfs:comment "Employ current and new models in parallel and retire current models only after the new ones are thoroughly validated." .
+
+<https://cadmiumkitty.github.io/aimrm/12> a togaf:BusinessCapability ;
+    rdfs:label "Risk ratings development" ;
+    dcterms:source <https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/request-for-comments> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/aimrm/11> .
+
+<https://cadmiumkitty.github.io/aimrm/14> a togaf:BusinessCapability ;
+    rdfs:label "Performance benchmark development" ;
+    dcterms:source <https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/request-for-comments> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/aimrm/13> .
+
+<https://cadmiumkitty.github.io/aimrm/15> a togaf:BusinessCapability ;
+    rdfs:label "Ongoing performance monitoring" ;
+    dcterms:source <https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/request-for-comments> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/aimrm/13> .
+
+<https://cadmiumkitty.github.io/aimrm/3> a togaf:BusinessCapability ;
+    rdfs:label "Input data review" ;
+    dcterms:source <https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/request-for-comments> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/aimrm/2> .
+
+<https://cadmiumkitty.github.io/aimrm/4> a togaf:BusinessCapability ;
+    rdfs:label "Algorithm review" ;
+    dcterms:source <https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/request-for-comments> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/aimrm/2> .
+
+<https://cadmiumkitty.github.io/aimrm/5> a togaf:BusinessCapability ;
+    rdfs:label "Parameter Review" ;
+    dcterms:source <https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/request-for-comments> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/aimrm/2> .
+
+<https://cadmiumkitty.github.io/aimrm/6> a togaf:BusinessCapability ;
+    rdfs:label "Output Review" ;
+    dcterms:source <https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/request-for-comments> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/aimrm/2> .
+
+<https://cadmiumkitty.github.io/aimrm/8> a togaf:BusinessCapability ;
+    rdfs:label "Upfront testing" ;
+    dcterms:source <https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/request-for-comments> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/aimrm/7> .
+
+<https://cadmiumkitty.github.io/aimrm/9> a togaf:BusinessCapability ;
+    rdfs:label "Ongoing testing" ;
+    dcterms:source <https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/request-for-comments> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/aimrm/7> .
+
+<https://cadmiumkitty.github.io/aimrm/11> a togaf:BusinessCapability ;
+    rdfs:label "Model inventory management" ;
+    dcterms:source <https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/request-for-comments> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/aimrm/1> ;
+    rdfs:comment "Maintain a detailed inventory of all AI models, along with any assigned risk ratings such that the models can be appropriately monitored and managed based on their risk levels." .
+
+<https://cadmiumkitty.github.io/aimrm/13> a togaf:BusinessCapability ;
+    rdfs:label "Model monitoring" ;
+    dcterms:source <https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/request-for-comments> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/aimrm/1> ;
+    rdfs:comment "Develop model performance benchmarks (e.g., number of false negatives) and an ongoing monitoring and reporting process to ensure that the models perform as intended, particularly when the models involved are self-training and evolve over time." .
+
+<https://cadmiumkitty.github.io/aimrm/7> a togaf:BusinessCapability ;
+    rdfs:label "Model testing" ;
+    dcterms:source <https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/request-for-comments> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/aimrm/1> ;
+    rdfs:comment "Conduct upfront as well as ongoing testing, including tests that experiment with different and stressed scenarios (e.g., unprecedented market conditions) and new datasets." .
+
+<https://cadmiumkitty.github.io/aimrm/2> a togaf:BusinessCapability ;
+    rdfs:label "Model validation processes" ;
+    dcterms:source <https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/request-for-comments> ;
+    togaf:businessCapabilityDecomposesBusinessCapability <https://cadmiumkitty.github.io/aimrm/1> ;
+    rdfs:comment "Update model validation processes to account for complexities of an ML model.31 This includes reviewing the input data (e.g., review for potential bias), the algorithms (e.g., review for errors), any parameters (e.g., verify risk thresholds), and the output (e.g., determine explainability of the output)." .
+
+<https://cadmiumkitty.github.io/aimrm/1> a togaf:BusinessCapability ;
+    rdfs:label "AI Model Risk Management" ;
+    dcterms:source <https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/request-for-comments> .
+
